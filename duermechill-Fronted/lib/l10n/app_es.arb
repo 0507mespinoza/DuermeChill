@@ -1,0 +1,232 @@
+{
+  "@@locale": "es",
+  "appTitle": "DuermeChill",
+  "loginUsuario": "Usuario:",
+  "loginPass": "Contraseña:",
+  "loginBtn": "Iniciar sesión",
+  "loginRegisterBtn": "Registrarse",
+  "errorCamposVacios": "Por favor, rellena todos los campos",
+  "errorCredenciales": "Usuario o contraseña incorrectos",
+  
+  "registroTitulo": "Registro",
+  "registroNombre": "Nombre:",
+  "registroEdad": "Edad:",
+  "registroCorreo": "Correo:",
+  "registroAtras": "Atrás",
+  "registroExito": "¡Usuario guardado correctamente!",
+  
+  "drawerPremium": "DuermeChill Premium",
+  "drawerEditarEncuesta": "Editar datos",
+  "drawerIdioma": "Cambiar Idioma",
+  "drawerTema": "Modo Oscuro",
+  "drawerCerrar": "Cerrar Sesión",
+  
+  "navYo": "Yo",
+  "navEstadisticas": "Estadísticas",
+  "navRegistro": "Registro",
+  "navAlarmas": "Alarmas",
+  "navCoach": "Coach",
+  
+  "perfilTitulo": "Mi Perfil",
+  "perfilHola": "¡Hola, {nombre}!",
+  "@perfilHola": {
+    "placeholders": {
+      "nombre": {
+        "type": "Object"
+      }
+    }
+  },
+  "perfilSubtitulo": "¿Listo para mejorar tu sueño hoy?",
+  "perfilDatosPersonales": "Datos personales",
+  "perfilEditarContrasena": "Editar contraseña",
+  
+  "statsTitulo": "Tu progreso de sueño",
+  "statsFiltro7": "7 días",
+  "statsFiltro14": "14 días",
+  "statsFiltroMes": "Mes",
+  "statsUltimaNoche": "Última noche registrada",
+  "statsHoras": "Horas dormidas",
+  "statsCalidad": "Calidad del sueño",
+  "statsCansancio": "Nivel de cansancio",
+  "statsDespertares": "Despertares",
+  "statsSinDatos": "Sin datos",
+  
+  "registroDatosTitulo": "Registro de datos",
+  "registroDatosSubtitulo": "Responde las preguntas con total sinceridad",
+  "regPregunta1": "¿Cuántas horas has dormido hoy?",
+  "regPregunta2": "¿Cómo has dormido?",
+  "regPregunta3": "¿Qué tan cansado te sientes hoy?",
+  "regPregunta4": "¿Cuántas veces te despertaste por la noche?",
+  "btnGuardar": "Guardar",
+  "btnCancelar": "Cancelar",
+  
+  "alarmasTitulo": "Mis Alarmas",
+  "alarmasVacio": "No tienes alarmas programadas.\nToca el botón + para crear una.",
+  "alarmaActivada": "Alarma activada",
+  "alarmaDesactivada": "Alarma desactivada",
+  "alarmaEliminada": "Alarma eliminada",
+  "btnDeshacer": "DESHACER",
+  
+  "coachTitulo": "Coach AI",
+  "coachVacio": "Inicia una nueva conversación con tu Coach",
+  "coachEscribe": "Escribe aquí...",
+  "coachConversaciones": "Tus Conversaciones",
+  "coachNueva": "Nueva conversación",
+
+  "encuestaSubtitulo": "¿Podemos saber más sobre ti?",
+  "encuestaQ1": "¿Qué esperas de nuestra aplicación?",
+  "encuestaQ2": "¿Cómo es tu noche típica?",
+  "encuestaQ3": "¿A qué hora te sueles ir a la cama?",
+  "encuestaQ4": "¿Qué edad tienes?",
+  "encuestaModal1": "Expectativas",
+  "encuestaModal2": "Tu noche",
+  "encuestaModal3": "Horario",
+  "encuestaModal4": "Edad",
+  "encuestaOpc1A": "Dormirme más rápido",
+  "encuestaOpc1B": "Mejorar calidad del sueño",
+  "encuestaOpc1C": "Regular mi vida",
+  "encuestaOpc2A": "Duermo bastante bien",
+  "encuestaOpc2B": "Sueño normal",
+  "encuestaOpc2C": "No duermo lo suficiente",
+  "encuestaOpc2D": "No estoy seguro",
+  "encuestaOpc3A": "21:00 - 22:00",
+  "encuestaOpc3B": "22:00 - 23:00",
+  "encuestaOpc3C": "23:00 - 00:00",
+  "encuestaOpc3D": "Más tarde",
+  "encuestaOpc4A": "18-25",
+  "encuestaOpc4B": "26-40",
+  "encuestaOpc4C": "41-60",
+  "encuestaOpc4D": "+60",
+  "editarEncuestaTitulo": "Editar datos de la encuesta",
+  "editarEncuestaSeccionUsuario": "Datos del usuario",
+  "editarEncuestaSeccionPrimera": "Primera encuesta",
+  "editarEncuestaNombre": "Nombre",
+  "editarEncuestaCorreo": "Correo",
+  "editarEncuestaEdad": "Edad",
+  "editarEncuestaSeguridad": "Seguridad",
+  "editarEncuestaExpectativa": "Expectativa",
+  "editarEncuestaNoche": "Noche",
+  "editarEncuestaHora": "Hora de sueño (HH:mm)",
+  "editarEncuestaEdadPrimera": "Edad de encuesta",
+  "editarEncuestaGuardarCambios": "Guardar cambios",
+  "editarEncuestaGuardando": "Guardando...",
+  "editarEncuestaCampoObligatorio": "Este campo es obligatorio",
+  "editarEncuestaErrorGuardar": "No se pudo guardar. Revisa los datos e inténtalo de nuevo.",
+  "editarEncuestaExito": "Datos actualizados correctamente.",
+  "editarContrasenaTitulo": "Editar contraseña",
+  "editarContrasenaActual": "Contraseña actual",
+  "editarContrasenaNueva": "Nueva contraseña",
+  "editarContrasenaConfirmar": "Confirmar nueva contraseña",
+  "editarContrasenaGuardar": "Guardar contraseña",
+  "editarContrasenaGuardando": "Guardando...",
+  "editarContrasenaCampoObligatorio": "Este campo es obligatorio",
+  "editarContrasenaMinima": "La contraseña debe tener al menos 6 caracteres",
+  "editarContrasenaNoCoinciden": "Las contraseñas no coinciden",
+  "editarContrasenaError": "No se pudo actualizar la contraseña. Revisa tu contraseña actual.",
+  "editarContrasenaExito": "Contraseña actualizada correctamente.",
+  "statsSinDatosSueno": "Sin datos de sueño registrados",
+  "statsSinDatosPeriodo": "Sin datos para este período",
+  "statsDatosReloj": "Datos del reloj inteligente",
+  "statsSinPulso": "Sin datos de pulso.\nSincroniza Google Fit.",
+  "statsDatosPulsaciones": "Datos de pulsaciones",
+  "statsBtnSincronizar": "Sincronizar reloj",
+  "statsBtnSincronizando": "Sincronizando...",
+  "statsFasesSueno": "Fases del sueño",
+  "statsDespierto": "Despierto",
+  "statsSuenoLigero": "Sueño ligero",
+  "statsSuenoProfundo": "Sueño profundo",
+  "statsRem": "REM",
+  "statsTablaHora": "Hora",
+  "statsTablaPulso": "Pulsaciones",
+  "statsYMas": "... y {cantidad} más",
+  "@drawerEditarEncuesta": {
+    "description": "Opción del menú lateral para abrir la pantalla de edición de datos de usuario y encuesta"
+  },
+  "@editarEncuestaTitulo": {
+    "description": "Título de la pantalla de edición de encuesta"
+  },
+  "@editarEncuestaSeccionUsuario": {
+    "description": "Encabezado de la sección de datos del usuario"
+  },
+  "@editarEncuestaSeccionPrimera": {
+    "description": "Encabezado de la sección de primera encuesta"
+  },
+  "@editarEncuestaNombre": {
+    "description": "Etiqueta del campo nombre"
+  },
+  "@editarEncuestaCorreo": {
+    "description": "Etiqueta del campo correo"
+  },
+  "@editarEncuestaEdad": {
+    "description": "Etiqueta del campo edad"
+  },
+  "@editarEncuestaSeguridad": {
+    "description": "Encabezado para acciones de seguridad dentro de editar datos"
+  },
+  "@editarEncuestaExpectativa": {
+    "description": "Etiqueta del campo expectativa de la encuesta"
+  },
+  "@editarEncuestaNoche": {
+    "description": "Etiqueta del campo noche típica"
+  },
+  "@editarEncuestaHora": {
+    "description": "Etiqueta del campo hora habitual de sueño"
+  },
+  "@editarEncuestaEdadPrimera": {
+    "description": "Etiqueta del campo edad reportada en la encuesta"
+  },
+  "@editarEncuestaGuardarCambios": {
+    "description": "Texto del botón para guardar cambios"
+  },
+  "@editarEncuestaGuardando": {
+    "description": "Texto del botón durante el guardado"
+  },
+  "@editarEncuestaCampoObligatorio": {
+    "description": "Mensaje de validación cuando falta un campo"
+  },
+  "@editarEncuestaErrorGuardar": {
+    "description": "Mensaje mostrado cuando falla el guardado"
+  },
+  "@editarEncuestaExito": {
+    "description": "Mensaje mostrado cuando los datos se guardan correctamente"
+  },
+  "@perfilDatosPersonales": {
+    "description": "Título de sección de datos personales en pantalla de perfil"
+  },
+  "@perfilEditarContrasena": {
+    "description": "Opción para navegar a la pantalla de edición de contraseña"
+  },
+  "@editarContrasenaTitulo": {
+    "description": "Título de pantalla de cambio de contraseña"
+  },
+  "@editarContrasenaActual": {
+    "description": "Etiqueta del campo contraseña actual"
+  },
+  "@editarContrasenaNueva": {
+    "description": "Etiqueta del campo nueva contraseña"
+  },
+  "@editarContrasenaConfirmar": {
+    "description": "Etiqueta del campo confirmar nueva contraseña"
+  },
+  "@editarContrasenaGuardar": {
+    "description": "Texto del botón para guardar nueva contraseña"
+  },
+  "@editarContrasenaGuardando": {
+    "description": "Texto del botón durante operación de guardado"
+  },
+  "@editarContrasenaCampoObligatorio": {
+    "description": "Mensaje de validación de campo requerido"
+  },
+  "@editarContrasenaMinima": {
+    "description": "Mensaje de validación de longitud mínima"
+  },
+  "@editarContrasenaNoCoinciden": {
+    "description": "Mensaje de validación cuando confirmación no coincide"
+  },
+  "@editarContrasenaError": {
+    "description": "Mensaje cuando falla la actualización de contraseña"
+  },
+  "@editarContrasenaExito": {
+    "description": "Mensaje cuando la contraseña se actualiza correctamente"
+  }
+}

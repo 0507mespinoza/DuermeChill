@@ -1,0 +1,119 @@
+
+Guía para instalar y ejecutar DuermeChill en tu ordenador
+
+Este proyecto está formado por dos partes principales:
+
+1. Backend (servidor): carpeta "duermechill-Backend". Es el programa que gestiona los datos y la lógica del sistema.
+2. Frontend (aplicación visual): carpeta "duermechill-Fronted". Es la aplicación que ves y usas, desarrollada con Flutter.
+
+
+
+PASO 1: Requisitos previos
+Antes de empezar, necesitas tener instalado lo siguiente:
+
+- Java 17 o superior (para el backend)
+- Maven (puedes usar los archivos mvnw/mvnw.cmd incluidos en el proyecto)
+- Flutter SDK (descárgalo desde https://docs.flutter.dev/get-started/install)
+- Git (para descargar el proyecto)
+- Android Studio (solo si quieres probar la app en un emulador o dispositivo Android)
+
+PASO 2: Descargar el proyecto
+Abre una terminal (PowerShell, CMD o Terminal en Mac/Linux) y ejecuta:
+
+      git clone https://github.com/0507mespinoza/DuermeChill.git
+      cd DuermeChill
+
+Esto descargará el proyecto en tu ordenador y entrarás en la carpeta principal.
+
+PASO 3: Configurar y ejecutar la base de datos MySQL
+DuermeChill utiliza MySQL para guardar los datos. Debes tener MySQL instalado y crear la base de datos antes de arrancar el backend. La base de datos debe llamarse exactamente:
+      duermechill_db
+
+Sigue estos pasos para dejar la base de datos lista:
+
+1. Instala MySQL si no lo tienes. Puedes descargarlo desde https://dev.mysql.com/downloads/installer/
+
+2. Abre una terminal o consola de MySQL y accede como usuario root (o tu usuario administrador):
+      mysql -u root -p
+   Te pedirá la contraseña de MySQL.
+
+3. Crea la base de datos (debe llamarse exactamente así):
+      CREATE DATABASE duermechill_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+4. Las tablas que utiliza la aplicación están definidas en el archivo:
+      duermechill-Backend/src/main/resources/schema.sql
+
+   Si quieres crear las tablas automáticamente, puedes importar ese archivo en MySQL. Por ejemplo, desde la terminal de MySQL:
+      SOURCE src/main/resources/schema.sql;
+
+   Puedes abrir ese archivo para consultar la estructura de todas las tablas usadas por el sistema.
+
+5. Configura el usuario y contraseña en el archivo de propiedades del backend:
+   Edita el archivo src/main/resources/application.properties y asegúrate de que las líneas de conexión sean correctas:
+      spring.datasource.url=jdbc:mysql://localhost:3306/duermechill_db
+      spring.datasource.username=TU_USUARIO
+      spring.datasource.password=TU_CONTRASEÑA
+
+6. Asegúrate de que el servidor MySQL esté en ejecución antes de arrancar el backend.
+
+
+Abre una terminal y entra en la carpeta del backend:
+-Compila y ejecuta el backend. Tienes varias opciones:
+
+PASO 4: Preparar y ejecutar el Backend (servidor)
+El backend es el encargado de gestionar los datos y la lógica de la aplicación. Para ponerlo en marcha:
+
+1. Abre una terminal y entra en la carpeta del backend:
+    cd duermechill-Backend
+
+2. Compila y ejecuta el backend. Tienes varias opciones:
+   - Si usas Windows, ejecuta:
+        .\mvnw spring-boot:run
+   - Si usas Linux o Mac, ejecuta:
+        ./mvnw spring-boot:run
+   - Si tienes Maven instalado globalmente, puedes usar:
+        mvn spring-boot:run
+
+Esto descargará las dependencias necesarias y arrancará el servidor. Espera a que aparezca un mensaje indicando que está escuchando en el puerto 8080.
+
+El backend estará disponible en la dirección: http://localhost:8080
+
+PASO 5: Preparar y ejecutar el Frontend (aplicación visual)
+El frontend es la parte que ves y usas. Para ejecutarla:
+
+1. Instala las dependencias necesarias de Flutter:
+2. Ejecuta la aplicación:
+
+3. Abre otra terminal y entra en la carpeta del frontend:
+      cd duermechill-Fronted
+
+4. Instala las dependencias necesarias de Flutter:
+      flutter pub get
+
+5. Ejecuta la aplicación:
+      flutter run
+
+   Si tienes un emulador de Android abierto o un dispositivo conectado, podrás elegir dónde ejecutarla. También puedes ejecutarla en el navegador con:
+      flutter run -d chrome
+
+   Si quieres ejecutarla en Windows o Linux, asegúrate de tener configurado el entorno y ejecuta:
+      flutter run -d windows
+      flutter run -d linux
+
+
+CONSEJOS Y RESOLUCIÓN DE PROBLEMAS
+- Si tienes problemas con las dependencias de Flutter, prueba a ejecutar:
+      flutter pub upgrade
+- Si el backend no arranca, asegúrate de tener Java instalado y que ningún otro programa esté usando el puerto 8080.
+- Para compilar el backend en modo producción (genera un archivo .jar listo para desplegar):
+      mvnw package
+  Luego ejecuta el archivo .jar que se genera en la carpeta target con:
+      java -jar target/duermechill-0.0.1-SNAPSHOT.jar
+- Si necesitas más detalles, revisa los archivos README.md que hay en cada carpeta.
+
+
+CONTACTO Y AYUDA
+Si tienes dudas, consulta el manual de usuario (MANUAL_USUARIO.md) incluido en el proyecto. Si el problema persiste, contacta con el equipo de desarrollo.
+
+
+¡Listo! Siguiendo estos pasos deberías poder instalar y ejecutar DuermeChill en tu ordenador.

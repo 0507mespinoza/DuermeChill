@@ -1,0 +1,120 @@
+2026-05-28T11:37:02.850+02:00  INFO 17656 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Starting DuermechillApplication using Java 17.0.12 with PID 17656 (C:\Users\gian7\Desktop\DuermeChill-main\DuermeChill-main\duermechill-Backend\target\classes started by gian7 in C:\Users\gian7\Desktop\DuermeChill-main\DuermeChill-main\duermechill-Backend)
+2026-05-28T11:37:02.934+02:00 DEBUG 17656 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-05-28T11:37:03.002+02:00  INFO 17656 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-28T11:37:05.402+02:00  INFO 17656 --- [duermechill] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-05-28T11:37:05.470+02:00  INFO 17656 --- [duermechill] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 0 JDBC repository interfaces.
+2026-05-28T11:37:07.099+02:00  INFO 17656 --- [duermechill] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-28T11:37:07.156+02:00  INFO 17656 --- [duermechill] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-28T11:37:07.158+02:00  INFO 17656 --- [duermechill] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-28T11:37:07.388+02:00  INFO 17656 --- [duermechill] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4035 ms
+2026-05-28T11:37:07.866+02:00  INFO 17656 --- [duermechill] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-28T11:37:09.306+02:00  INFO 17656 --- [duermechill] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a9a878
+2026-05-28T11:37:09.313+02:00  INFO 17656 --- [duermechill] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-28T11:37:11.078+02:00  INFO 17656 --- [duermechill] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-28T11:37:11.093+02:00  INFO 17656 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Started DuermechillApplication in 10.087 seconds (process running for 11.133)
+2026-05-28T12:03:41.505+02:00  INFO 17656 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-28T12:03:41.532+02:00  INFO 17656 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-28T12:03:41.709+02:00  INFO 17656 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 173 ms
+2026-05-28T12:46:00.283+02:00  WARN 17656 --- [duermechill] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m19s772ms926µs100ns).
+2026-05-28T18:03:21.699+02:00  INFO 33196 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Starting DuermechillApplication using Java 17.0.12 with PID 33196 (C:\Users\gian7\Desktop\DuermeChill-main\DuermeChill-main\duermechill-Backend\target\classes started by gian7 in C:\Users\gian7\Desktop\DuermeChill-main\DuermeChill-main\duermechill-Backend)
+2026-05-28T18:03:21.704+02:00 DEBUG 33196 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-05-28T18:03:21.709+02:00  INFO 33196 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-28T18:03:22.700+02:00  INFO 33196 --- [duermechill] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-05-28T18:03:22.737+02:00  INFO 33196 --- [duermechill] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2026-05-28T18:03:23.766+02:00  INFO 33196 --- [duermechill] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-28T18:03:23.856+02:00  INFO 33196 --- [duermechill] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-28T18:03:23.857+02:00  INFO 33196 --- [duermechill] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-28T18:03:24.004+02:00  INFO 33196 --- [duermechill] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2215 ms
+2026-05-28T18:03:24.230+02:00  INFO 33196 --- [duermechill] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-28T18:03:24.985+02:00  INFO 33196 --- [duermechill] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3249e278
+2026-05-28T18:03:24.989+02:00  INFO 33196 --- [duermechill] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-28T18:03:25.905+02:00  INFO 33196 --- [duermechill] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-28T18:03:25.912+02:00  INFO 33196 --- [duermechill] [main] c.i.duermechill.DuermechillApplication   : Started DuermechillApplication in 5.098 seconds (process running for 5.854)
+2026-05-28T18:05:22.964+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-28T18:05:22.969+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-28T18:05:23.005+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
+2026-05-28T18:06:29.115+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1673
+2026-05-28T18:06:29.116+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1733
+2026-05-28T18:06:29.117+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1794
+2026-05-28T18:06:29.117+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1853
+2026-05-28T18:06:29.117+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1913
+2026-05-28T18:06:29.118+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1973
+2026-05-28T18:06:29.118+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2033
+2026-05-28T18:06:29.119+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2093
+2026-05-28T18:06:29.119+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2153
+2026-05-28T18:06:29.119+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2213
+2026-05-28T18:06:29.119+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2273
+2026-05-28T18:06:29.119+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=gian, fecha=2026-05-28, pulsaciones=0, fases=4
+2026-05-28T18:06:29.119+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : guardarDatosReloj: userId=2, fecha=2026-05-28
+2026-05-28T18:06:29.223+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-7] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 0 pulsaciones y 4 fases para userId=2, fecha=2026-05-28
+2026-05-28T18:06:35.764+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1673
+2026-05-28T18:06:35.765+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1733
+2026-05-28T18:06:35.765+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1794
+2026-05-28T18:06:35.765+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1853
+2026-05-28T18:06:35.765+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1913
+2026-05-28T18:06:35.766+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1973
+2026-05-28T18:06:35.766+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2033
+2026-05-28T18:06:35.766+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2093
+2026-05-28T18:06:35.766+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2153
+2026-05-28T18:06:35.767+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2213
+2026-05-28T18:06:35.767+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2273
+2026-05-28T18:06:35.767+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=gian, fecha=2026-05-28, pulsaciones=0, fases=4
+2026-05-28T18:06:35.767+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : guardarDatosReloj: userId=2, fecha=2026-05-28
+2026-05-28T18:06:35.790+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 0 pulsaciones y 4 fases para userId=2, fecha=2026-05-28
+2026-05-28T18:08:27.249+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=Michael, fecha=2026-05-28, pulsaciones=11, fases=4
+2026-05-28T18:08:27.249+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : guardarDatosReloj: userId=10, fecha=2026-05-28
+2026-05-28T18:08:27.300+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-8] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 11 pulsaciones y 4 fases para userId=10, fecha=2026-05-28
+2026-05-28T18:08:33.015+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-4] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=Michael, fecha=2026-05-28, pulsaciones=11, fases=4
+2026-05-28T18:08:33.016+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-4] c.i.duermechill.ApiController            : guardarDatosReloj: userId=10, fecha=2026-05-28
+2026-05-28T18:08:33.068+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-4] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 11 pulsaciones y 4 fases para userId=10, fecha=2026-05-28
+2026-05-28T18:09:35.788+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=Michael, fecha=2026-05-28, pulsaciones=11, fases=4
+2026-05-28T18:09:35.788+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: userId=10, fecha=2026-05-28
+2026-05-28T18:09:35.847+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 11 pulsaciones y 4 fases para userId=10, fecha=2026-05-28
+2026-05-28T18:11:04.755+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-9] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=Michael, fecha=2026-05-28, pulsaciones=11, fases=4
+2026-05-28T18:11:04.755+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-9] c.i.duermechill.ApiController            : guardarDatosReloj: userId=10, fecha=2026-05-28
+2026-05-28T18:11:04.799+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-9] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 11 pulsaciones y 4 fases para userId=10, fecha=2026-05-28
+2026-05-28T18:11:28.093+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=Michael, fecha=2026-05-28, pulsaciones=11, fases=4
+2026-05-28T18:11:28.094+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: userId=10, fecha=2026-05-28
+2026-05-28T18:11:28.148+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 11 pulsaciones y 4 fases para userId=10, fecha=2026-05-28
+2026-05-28T18:17:37.915+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1662
+2026-05-28T18:17:37.927+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1722
+2026-05-28T18:17:37.927+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1783
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1842
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1902
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1962
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2022
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2082
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2142
+2026-05-28T18:17:37.928+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2202
+2026-05-28T18:17:37.929+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2262
+2026-05-28T18:17:37.930+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=gian, fecha=2026-05-28, pulsaciones=0, fases=4
+2026-05-28T18:17:37.930+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : guardarDatosReloj: userId=2, fecha=2026-05-28
+2026-05-28T18:17:37.960+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 0 pulsaciones y 4 fases para userId=2, fecha=2026-05-28
+2026-05-28T18:18:18.787+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1661
+2026-05-28T18:18:18.787+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1721
+2026-05-28T18:18:18.788+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1782
+2026-05-28T18:18:18.788+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1841
+2026-05-28T18:18:18.788+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1901
+2026-05-28T18:18:18.789+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1961
+2026-05-28T18:18:18.789+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2021
+2026-05-28T18:18:18.790+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2081
+2026-05-28T18:18:18.790+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2141
+2026-05-28T18:18:18.791+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2201
+2026-05-28T18:18:18.791+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2261
+2026-05-28T18:18:18.791+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=gian, fecha=2026-05-28, pulsaciones=0, fases=4
+2026-05-28T18:18:18.791+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : guardarDatosReloj: userId=2, fecha=2026-05-28
+2026-05-28T18:18:18.808+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-6] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 0 pulsaciones y 4 fases para userId=2, fecha=2026-05-28
+2026-05-28T18:25:15.797+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1654
+2026-05-28T18:25:15.812+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1714
+2026-05-28T18:25:15.813+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1775
+2026-05-28T18:25:15.813+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1834
+2026-05-28T18:25:15.813+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1894
+2026-05-28T18:25:15.813+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=1954
+2026-05-28T18:25:15.813+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2014
+2026-05-28T18:25:15.814+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2074
+2026-05-28T18:25:15.815+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2134
+2026-05-28T18:25:15.815+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2194
+2026-05-28T18:25:15.816+02:00 DEBUG 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : Minuto fuera de rango descartado: minuto=2254
+2026-05-28T18:25:15.816+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : ingestarDatosReloj: usuario=gian, fecha=2026-05-28, pulsaciones=0, fases=4
+2026-05-28T18:25:15.816+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: userId=2, fecha=2026-05-28
+2026-05-28T18:25:15.837+02:00  INFO 33196 --- [duermechill] [http-nio-0.0.0.0-8080-exec-10] c.i.duermechill.ApiController            : guardarDatosReloj: guardados 0 pulsaciones y 4 fases para userId=2, fecha=2026-05-28

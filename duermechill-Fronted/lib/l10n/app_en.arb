@@ -1,0 +1,232 @@
+{
+  "@@locale": "en",
+  "appTitle": "DuermeChill",
+  "loginUsuario": "Username:",
+  "loginPass": "Password:",
+  "loginBtn": "Login",
+  "loginRegisterBtn": "Sign Up",
+  "errorCamposVacios": "Please fill in all fields",
+  "errorCredenciales": "Invalid username or password",
+  
+  "registroTitulo": "Sign Up",
+  "registroNombre": "Name:",
+  "registroEdad": "Age:",
+  "registroCorreo": "Email:",
+  "registroAtras": "Back",
+  "registroExito": "User saved successfully!",
+  
+  "drawerPremium": "DuermeChill Premium",
+  "drawerEditarEncuesta": "Edit data",
+  "drawerIdioma": "Change Language",
+  "drawerTema": "Dark Mode",
+  "drawerCerrar": "Log Out",
+  
+  "navYo": "Me",
+  "navEstadisticas": "Statistics",
+  "navRegistro": "Record",
+  "navAlarmas": "Alarms",
+  "navCoach": "Coach",
+  
+  "perfilTitulo": "My Profile",
+  "perfilHola": "Hello, {nombre}!",
+  "@perfilHola": {
+    "placeholders": {
+      "nombre": {
+        "type": "Object"
+      }
+    }
+  },
+  "perfilSubtitulo": "Ready to improve your sleep today?",
+  "perfilDatosPersonales": "Personal data",
+  "perfilEditarContrasena": "Edit password",
+  
+  "statsTitulo": "Your sleep progress",
+  "statsFiltro7": "7 days",
+  "statsFiltro14": "14 days",
+  "statsFiltroMes": "Month",
+  "statsUltimaNoche": "Last recorded night",
+  "statsHoras": "Hours slept",
+  "statsCalidad": "Sleep quality",
+  "statsCansancio": "Tiredness level",
+  "statsDespertares": "Awakenings",
+  "statsSinDatos": "No data",
+  
+  "registroDatosTitulo": "Data Record",
+  "registroDatosSubtitulo": "Answer the questions honestly",
+  "regPregunta1": "How many hours did you sleep today?",
+  "regPregunta2": "How did you sleep?",
+  "regPregunta3": "How tired do you feel today?",
+  "regPregunta4": "How many times did you wake up at night?",
+  "btnGuardar": "Save",
+  "btnCancelar": "Cancel",
+  
+  "alarmasTitulo": "My Alarms",
+  "alarmasVacio": "You have no scheduled alarms.\nTap the + button to create one.",
+  "alarmaActivada": "Alarm activated",
+  "alarmaDesactivada": "Alarm deactivated",
+  "alarmaEliminada": "Alarm deleted",
+  "btnDeshacer": "UNDO",
+  
+  "coachTitulo": "Coach AI",
+  "coachVacio": "Start a new conversation with your Coach",
+  "coachEscribe": "Type here...",
+  "coachConversaciones": "Your Conversations",
+  "coachNueva": "New conversation",
+
+  "encuestaSubtitulo": "Can we know more about you?",
+  "encuestaQ1": "What do you expect from our app?",
+  "encuestaQ2": "How is your typical night?",
+  "encuestaQ3": "What time do you usually go to bed?",
+  "encuestaQ4": "How old are you?",
+  "encuestaModal1": "Expectations",
+  "encuestaModal2": "Your night",
+  "encuestaModal3": "Schedule",
+  "encuestaModal4": "Age",
+  "encuestaOpc1A": "Fall asleep faster",
+  "encuestaOpc1B": "Improve sleep quality",
+  "encuestaOpc1C": "Regulate my life",
+  "encuestaOpc2A": "I sleep quite well",
+  "encuestaOpc2B": "Normal sleep",
+  "encuestaOpc2C": "I don't sleep enough",
+  "encuestaOpc2D": "I'm not sure",
+  "encuestaOpc3A": "21:00 - 22:00",
+  "encuestaOpc3B": "22:00 - 23:00",
+  "encuestaOpc3C": "23:00 - 00:00",
+  "encuestaOpc3D": "Later",
+  "encuestaOpc4A": "18-25",
+  "encuestaOpc4B": "26-40",
+  "encuestaOpc4C": "41-60",
+  "encuestaOpc4D": "+60",
+  "editarEncuestaTitulo": "Edit survey data",
+  "editarEncuestaSeccionUsuario": "User data",
+  "editarEncuestaSeccionPrimera": "First survey",
+  "editarEncuestaNombre": "Name",
+  "editarEncuestaCorreo": "Email",
+  "editarEncuestaEdad": "Age",
+  "editarEncuestaSeguridad": "Security",
+  "editarEncuestaExpectativa": "Expectation",
+  "editarEncuestaNoche": "Night",
+  "editarEncuestaHora": "Sleep time (HH:mm)",
+  "editarEncuestaEdadPrimera": "Survey age",
+  "editarEncuestaGuardarCambios": "Save changes",
+  "editarEncuestaGuardando": "Saving...",
+  "editarEncuestaCampoObligatorio": "This field is required",
+  "editarEncuestaErrorGuardar": "Could not save. Please review your data and try again.",
+  "editarEncuestaExito": "Data updated successfully.",
+  "editarContrasenaTitulo": "Edit password",
+  "editarContrasenaActual": "Current password",
+  "editarContrasenaNueva": "New password",
+  "editarContrasenaConfirmar": "Confirm new password",
+  "editarContrasenaGuardar": "Save password",
+  "editarContrasenaGuardando": "Saving...",
+  "editarContrasenaCampoObligatorio": "This field is required",
+  "editarContrasenaMinima": "Password must be at least 6 characters",
+  "editarContrasenaNoCoinciden": "Passwords do not match",
+  "editarContrasenaError": "Could not update password. Check your current password.",
+  "editarContrasenaExito": "Password updated successfully.",
+  "statsSinDatosSueno": "No sleep data recorded",
+  "statsSinDatosPeriodo": "No data for this period",
+  "statsDatosReloj": "Smartwatch data",
+  "statsSinPulso": "No heart rate data.\nSync Google Fit.",
+  "statsDatosPulsaciones": "Heart rate data",
+  "statsBtnSincronizar": "Sync watch",
+  "statsBtnSincronizando": "Syncing...",
+  "statsFasesSueno": "Sleep phases",
+  "statsDespierto": "Awake",
+  "statsSuenoLigero": "Light sleep",
+  "statsSuenoProfundo": "Deep sleep",
+  "statsRem": "REM",
+  "statsTablaHora": "Time",
+  "statsTablaPulso": "Heart Rate",
+  "statsYMas": "... and {cantidad} more",
+  "@drawerEditarEncuesta": {
+    "description": "Drawer option to open user and survey edit screen"
+  },
+  "@editarEncuestaTitulo": {
+    "description": "Title of the survey edit screen"
+  },
+  "@editarEncuestaSeccionUsuario": {
+    "description": "Header for user data section"
+  },
+  "@editarEncuestaSeccionPrimera": {
+    "description": "Header for first survey section"
+  },
+  "@editarEncuestaNombre": {
+    "description": "Label for name field"
+  },
+  "@editarEncuestaCorreo": {
+    "description": "Label for email field"
+  },
+  "@editarEncuestaEdad": {
+    "description": "Label for age field"
+  },
+  "@editarEncuestaSeguridad": {
+    "description": "Header for security actions inside edit data screen"
+  },
+  "@editarEncuestaExpectativa": {
+    "description": "Label for survey expectation field"
+  },
+  "@editarEncuestaNoche": {
+    "description": "Label for typical night field"
+  },
+  "@editarEncuestaHora": {
+    "description": "Label for sleep time field"
+  },
+  "@editarEncuestaEdadPrimera": {
+    "description": "Label for survey age field"
+  },
+  "@editarEncuestaGuardarCambios": {
+    "description": "Text for save changes button"
+  },
+  "@editarEncuestaGuardando": {
+    "description": "Text for button while saving"
+  },
+  "@editarEncuestaCampoObligatorio": {
+    "description": "Validation message when a field is required"
+  },
+  "@editarEncuestaErrorGuardar": {
+    "description": "Message shown when save fails"
+  },
+  "@editarEncuestaExito": {
+    "description": "Message shown when data is saved successfully"
+  },
+  "@perfilDatosPersonales": {
+    "description": "Personal data section title in profile screen"
+  },
+  "@perfilEditarContrasena": {
+    "description": "Option to navigate to password edit screen"
+  },
+  "@editarContrasenaTitulo": {
+    "description": "Password change screen title"
+  },
+  "@editarContrasenaActual": {
+    "description": "Current password field label"
+  },
+  "@editarContrasenaNueva": {
+    "description": "New password field label"
+  },
+  "@editarContrasenaConfirmar": {
+    "description": "Confirm new password field label"
+  },
+  "@editarContrasenaGuardar": {
+    "description": "Save new password button text"
+  },
+  "@editarContrasenaGuardando": {
+    "description": "Button text while saving password"
+  },
+  "@editarContrasenaCampoObligatorio": {
+    "description": "Required field validation message"
+  },
+  "@editarContrasenaMinima": {
+    "description": "Minimum password length validation message"
+  },
+  "@editarContrasenaNoCoinciden": {
+    "description": "Validation message when passwords do not match"
+  },
+  "@editarContrasenaError": {
+    "description": "Message shown when password update fails"
+  },
+  "@editarContrasenaExito": {
+    "description": "Message shown when password update succeeds"
+  }
+}
